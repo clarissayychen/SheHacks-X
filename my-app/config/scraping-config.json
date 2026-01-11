@@ -1,0 +1,50 @@
+{
+  "target_counts": {
+    "male_shirts": 5,
+    "female_shirts": 5,
+    "male_pants": 5,
+    "female_pants": 5,
+    "male_tshirts": 5,
+    "female_tshirts": 5,
+    "dresses": 10,
+    "female_tops": 5,
+    "female_skirts": 5,
+    "male_jackets": 5,
+    "female_jackets": 5
+  },
+  "categories": {
+    "shirts": {
+      "male": true,
+      "female": true
+    },
+    "pants": {
+      "male": true,
+      "female": true
+    },
+    "tshirts": {
+      "male": true,
+      "female": true
+    },
+    "dresses": {
+      "female": true,
+      "male": false
+    },
+    "tops": {
+      "female": true,
+      "male": false
+    },
+    "skirts": {
+      "female": true,
+      "male": false
+    },
+    "jackets": {
+      "male": true,
+      "female": true
+    }
+  },
+  "notes": {
+    "target_counts": "Number of products to scrape per category/gender. Set to 0 to skip that category.",
+    "categories": "Available categories and which genders they support",
+    "example_usage": "Update target_counts to control what gets scraped. Set male_shirts: 0 to skip male shirts."
+  }
+}

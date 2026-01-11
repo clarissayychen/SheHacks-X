@@ -1,0 +1,21 @@
+mongo_uri: "mongodb://localhost:27017"
+mongo_db: "cotton_finder"
+mongo_collection_aritzia: "products"
+
+user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+base_url: "https://www.zara.com"
+site: "zara"
+
+# Zara category mappings (for reference)
+categories:
+  shirts:
+    male: "https://www.zara.com/ca/en/man-shirts-l737.html"
+    female: "https://www.zara.com/ca/en/woman-shirts-l1217.html"
+  pants:
+    male: "https://www.zara.com/ca/en/man-trousers-l838.html"
+    female: "https://www.zara.com/ca/en/woman-trousers-l1335.html"
+  dresses:
+    female: "https://www.zara.com/ca/en/woman-dresses-l1066.html"
+  tshirts:
+    male: "https://www.zara.com/ca/en/man-t-shirts-l835.html"
+    female: "https://www.zara.com/ca/en/woman-t-shirts-l1063.html"

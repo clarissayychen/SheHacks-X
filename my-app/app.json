@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "CottonFinder",
-    "slug": "cotton-finder",
+    "name": "NoPoly",
+    "slug": "nopoly",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "scheme": "cottonfinder",
+    "scheme": "nopoly",
     "splash": {
       "resizeMode": "contain",
       "backgroundColor": "#7C3AED"
@@ -15,10 +15,10 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.yourname.cottonfinder"
+      "bundleIdentifier": "com.yourname.nopoly"
     },
     "android": {
-      "package": "com.yourname.cottonfinder",
+      "package": "com.yourname.nopoly",
       "adaptiveIcon": {
         "backgroundColor": "#7C3AED"
       }
